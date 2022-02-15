@@ -95,7 +95,7 @@ async def start(client, message):
             InlineKeyboardButton('🤠ᗩᗷOᑌT🤠', callback_data='about')
             ],[
             InlineKeyboardButton('🔎Տᗴᗩᖇᑕᕼ ᕼᗴᖇᗴ🔍', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('ᕼOᗯ TO ᗪᗴᑭᒪOY❔', callback_data='start')
+            InlineKeyboardButton('ᕼOᗯ TO ᗪᗴᑭᒪOY❔', url='t.me/TEAM_KERALA')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
