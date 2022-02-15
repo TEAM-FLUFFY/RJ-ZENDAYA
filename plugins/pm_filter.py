@@ -687,7 +687,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('ᕼᗴᒪᑭ', callback_data='help'),
             InlineKeyboardButton('🤠ᗩᗷOᑌT🤠', callback_data='about')
             ],[
-            InlineKeyboardButton('🔎Տᗴᗩᖇᑕᕼ ᕼᗴᖇᗴ🔍', switch_inline_query_current_chat='')
+            InlineKeyboardButton('🔎Տᗴᗩᖇᑕᕼ ᕼᗴᖇᗴ🔍', switch_inline_query_current_chat=''),
+            InlineKeyboardButton('ᕼOᗯ TO ᗪᗴᑭᒪOY❔', url='t.me/TEAM_KERALA')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -787,7 +788,6 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('𝙰𝚄𝙳𝙸𝙾-𝙱𝙾𝙾𝙺', callback_data='abook'),
             InlineKeyboardButton('𝚄𝚁𝙻-𝚂𝙷𝙾𝚁𝚃', callback_data='urlshort')
             ],[
-            
             InlineKeyboardButton('𝚂𝚃𝙰𝚃𝚄𝚂', callback_data='stats'),
             ],[
             InlineKeyboardButton('⚚ 𝙱𝙰𝙲𝙺 ⚚', callback_data='start')
